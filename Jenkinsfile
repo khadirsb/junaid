@@ -19,4 +19,4 @@ node('built-in') {
     {
     sh 'scp /home/ubuntu/.jenkins/workspace/pipejob/webapp/target/webapp.war ubuntu@172.31.41.41:/var/lib/tomcat9/webapps/artifact.war'
     }
-
+}
